@@ -1,0 +1,64 @@
+{
+    // "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+      "qdebug": "cpp",
+      "atomic": "cpp",
+      "cmath": "cpp",
+      "compare": "cpp",
+      "concepts": "cpp",
+      "cstddef": "cpp",
+      "cstdint": "cpp",
+      "cstdio": "cpp",
+      "cstdlib": "cpp",
+      "cstring": "cpp",
+      "cwchar": "cpp",
+      "exception": "cpp",
+      "initializer_list": "cpp",
+      "ios": "cpp",
+      "iosfwd": "cpp",
+      "iostream": "cpp",
+      "istream": "cpp",
+      "iterator": "cpp",
+      "limits": "cpp",
+      "memory": "cpp",
+      "new": "cpp",
+      "ostream": "cpp",
+      "stdexcept": "cpp",
+      "streambuf": "cpp",
+      "system_error": "cpp",
+      "tuple": "cpp",
+      "type_traits": "cpp",
+      "typeinfo": "cpp",
+      "utility": "cpp",
+      "xfacet": "cpp",
+      "xiosbase": "cpp",
+      "xlocale": "cpp",
+      "xlocinfo": "cpp",
+      "xlocnum": "cpp",
+      "xmemory": "cpp",
+      "xstddef": "cpp",
+      "xstring": "cpp",
+      "xtr1common": "cpp",
+      "xutility": "cpp",
+      "qdesktopservices": "cpp",
+      "qdir": "cpp",
+      "qfileinfo": "cpp",
+      "qtime": "cpp",
+      "qttest": "cpp",
+      "*.rh": "cpp"
+    }
+    ,
+    "testMate.cpp.test.advancedExecutables": [
+        {
+          "name":"TDD单元测试用例",
+          "pattern": "{build,Build,BUILD,out,Out,OUT}/tests/**/*{test,Test,TEST}*",
+          "cwd": "${absDirpath}",
+          "env": {
+            "PATH": "${os_env:PATH}"
+          }
+        }
+    ],
+    "terminal.integrated.shellArgs.windows": [
+      "Invoke-BatchFile 'C:/Program Files (x86)/Microsoft Visual Studio 10.0/VC/vcvarsall.bat' x86"
+    ]
+}

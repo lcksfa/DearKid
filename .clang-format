@@ -1,0 +1,51 @@
+Language: Cpp
+
+#If true, analyze the formatted file for the most common alignment of & and *. PointerAlignment is then used only as fallback.
+DerivePointerAlignment: false
+
+IndentWidth: 4
+AccessModifierOffset:	-4
+SpacesInContainerLiterals: false
+ConstructorInitializerIndentWidth:	4
+#Add a space after @property in Objective-C, i.e. use \@property (readonly) instead of \@property(readonly).
+ObjCSpaceAfterProperty: true
+
+#The number of characters to use for indentation of ObjC blocks.
+ObjCBlockIndentWidth: 4
+
+#If true, if (a) return; can be put on a single line.
+AllowShortIfStatementsOnASingleLine: false
+
+#If false, spaces will be removed before assignment operators.
+SpaceBeforeAssignmentOperators: true
+
+#Pointer and reference alignment style.
+PointerAlignment: Right
+
+#The maximum number of consecutive empty lines to keep.
+MaxEmptyLinesToKeep: 1
+
+AllowShortBlocksOnASingleLine:	false
+
+AllowShortFunctionsOnASingleLine:	false
+ColumnLimit: 90
+Standard:	Cpp11
+BreakBeforeBraces:	Custom
+BraceWrapping:   
+  AfterClass:	true
+  AfterControlStatement:	false
+  AfterEnum:	true
+  AfterFunction:	true
+  AfterNamespace:	true
+  AfterObjCDeclaration:	true
+  AfterStruct:	false
+  AfterUnion:	true
+  BeforeCatch:	true
+  BeforeElse:	true
+  IndentBraces:	false
+
+AlignTrailingComments: true
+
+SpaceAfterCStyleCast: true
+SortIncludes: false
+BreakConstructorInitializers: BeforeComma
