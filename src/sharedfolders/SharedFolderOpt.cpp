@@ -11,7 +11,7 @@
 
 namespace
 {
-const static LPTSTR SharedFolderRemotePath = TEXT("\\\\192.168.1.166\\sharedFolder");
+const static LPTSTR SharedFolderRemotePath = TEXT("\\\\192.168.1.188\\sharedFolder");
 const static LPTSTR SharedFolderLocalDriver = TEXT("Z:");
 } // namespace
 

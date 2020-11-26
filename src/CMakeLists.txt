@@ -19,7 +19,7 @@ add_subdirectory(sharedfolders)
 # find_package(Qt4 REQUIRED QtCore QtGui)
 # include( ${QT_USE_FILE} )
 
-# add_executable(${ExcuteName} main.cpp)
+add_executable(${ExcuteName} main.cpp)
 # target_link_libraries(${ExcuteName} Qt4::QtCore Qt4::QtGui)
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /Zi")
 set(CMAKE_EXE_LINKER_FLAGS_RELEASE "${CMAKE_EXE_LINKER_FLAGS_RELEASE} /DEBUG /OPT:REF /OPT:ICF")
