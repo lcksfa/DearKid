@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int argc, char)
+int main(int argc, char**)
 {
     int j = 0;
     
@@ -10,3 +10,6 @@ int main(int argc, char)
     std::cout << "Hello Dear Kid " << std::endl;
     return 0;
 }
+
+
+
